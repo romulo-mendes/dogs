@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	transition: 0.1s;
 	min-width: 8rem;
+	font-weight: 600;
 }
 
 .button:hover,
