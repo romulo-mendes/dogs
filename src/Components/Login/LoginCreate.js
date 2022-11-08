@@ -6,6 +6,7 @@ import Error from "../Helper/Error";
 import Input from "../Form/Input";
 import { UserContext } from "../../UserContext";
 import useFetch from "../../Hooks/useFetch";
+import Head from "../Helper/Head";
 
 
 const LoginCreate = () => {
@@ -29,6 +30,7 @@ const LoginCreate = () => {
 
 	return (
 		<section className="animeLeft">
+			<Head title="Crie sua conta" description="Página de criação de conta do site Dogs" />
 			<h1 className="title">Cadastre-se</h1>
 			<form onSubmit={handleSubmit}>
 				<Input label="Usuário" type="text" name="username" {...username} />
